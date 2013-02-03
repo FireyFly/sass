@@ -103,7 +103,14 @@ namespace sass
 
         private static void DisplayHelp()
         {
-            // TODO
+            Console.WriteLine();
+            Console.WriteLine("Usage: Assembler.exe [options] <inputfile> [outputfile]");
+            Console.WriteLine("Assemble <inputfile> to produce the output binary [outputfile], or <inputfile>.bin if omitted.");
+            Console.WriteLine();
+            Console.WriteLine("  --input, --input-file <name>    name of the input assembly file to work on");
+            Console.WriteLine("  --output, --output-file <name>  name of the output object file to produce");
+            Console.WriteLine("  --instr <instruction-set>       instruction set configuration to use");
+            Console.WriteLine("  -h, -?, -help, --help           display this help and exit");
         }
     }
 }

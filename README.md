@@ -18,7 +18,10 @@ Usage: sass.exe [parameters] [input file] [output file]
 
 #### Parameters
 
-**TODO**
+    --input, --input-file <name>     name of the input assembly file to work on
+    --output, --output-file <name>   name of the output object file to produce
+    --instr <instruction-set>        instruction set configuration to use
+    -h, -?, -help, --help            display this help and exit
 
 ## Syntax
 
